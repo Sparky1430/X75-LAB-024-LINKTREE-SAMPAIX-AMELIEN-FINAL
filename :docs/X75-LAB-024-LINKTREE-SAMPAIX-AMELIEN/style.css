@@ -161,7 +161,14 @@ body {
 }
 
 /* MEDIA QUERIES */
-/* Pour les tablettes */
+/* MEDIA QUERIES */
+
+/* Pour les appareils mobiles - Premièrement, on applique les styles de base pour mobile-first. 
+   À partir de 768px, nous ajustons la mise en page pour les tablettes et les écrans plus larges. */
+
+/* Pour les tablettes - Lorsque l'écran atteint une largeur minimale de 768px,
+   on passe le menu en ligne (horizontal) et on ajuste certaines tailles et espacements. */
+
 @media (min-width: 768px) {
    .menu {
        display: flex;
